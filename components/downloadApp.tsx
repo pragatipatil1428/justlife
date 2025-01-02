@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineInsurance } from "react-icons/ai";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 const DownloadApp = () => {
@@ -20,7 +19,7 @@ const DownloadApp = () => {
                     <div className="bg-black w-48 h-16 text-white mr-9 rounded-md p-3 flex items-center justify-start">
                         <FaApple className="text-white text-3xl mr-3" />
                         <div>
-                            <p className="text-sm">Download on</p>
+                            <p className="text-xs">Download on</p>
                             <p className="text-sm">App Store</p>
                         </div>
                     </div>
@@ -28,7 +27,7 @@ const DownloadApp = () => {
                     <div className="bg-black w-48 h-16 text-white mr-9 rounded-md p-3 flex items-center justify-start">
                         <FaGooglePlay className="text-white text-3xl mr-3" />
                         <div>
-                            <p className="text-sm">Download on</p>
+                            <p className="text-xs">Download on</p>
                             <p className="text-sm">Google Play</p>
                         </div>
                     </div>
